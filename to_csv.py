@@ -4,6 +4,7 @@ import argparse
 import os
 
 def read_log(file_name, checkpoint):
+    test = 'test'
     try:
         with open ("logs/" + checkpoint + "/" + file_name) as f:
             data = f.read().split("\n")
