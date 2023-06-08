@@ -24,6 +24,7 @@ def save_to_csv(data, file_name):
 
 def create_instance_profiles(data):
     instance_profile_arn = []
+    test = 'test'
     for d in data:
         try:
             d = json.loads(d)
